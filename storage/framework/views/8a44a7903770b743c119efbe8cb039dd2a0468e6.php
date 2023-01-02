@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+
+    a{
+        display:block;
+        width:50px;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        margin: 15px;
+        background-color: rgb(135 192 203);
+
+    }
+    </style>
+</head>
+
+<body>
+    
+    <img src="https://blog.bonus.ly/hubfs/employee-experience-featured-image.png">
+    <a href="/register">Register</a>
+    <a href="/admin">Admin</a>
+</body>
+
+</html><?php /**PATH /home/odc/سطح المكتب/ODC-TASK-alhassan/resources/views/welcome.blade.php ENDPATH**/ ?>
