@@ -1,7 +1,13 @@
 <?php
 
+
 namespace App\Http\Controllers;
 use App\Models\Employee;
+use App\Http\Controllers\ApiSendMailController;
+
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
+use Illuminate\Mail\Mailable;
 
 
 class Register extends Controller
@@ -21,7 +27,7 @@ class Register extends Controller
         ]);
 
         Employee::create($attributes);
-
+        ApiSendMailController::send($attributes['email']);
         return redirect('/');
     }
 }

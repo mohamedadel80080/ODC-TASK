@@ -30,4 +30,4 @@
     <a href="/admin">Admin</a>
 </body>
 
-</html>
+</html><?php /**PATH /home/odc/سطح المكتب/ODC-TASK-alhassan/resources/views/welcome.blade.php ENDPATH**/ ?>

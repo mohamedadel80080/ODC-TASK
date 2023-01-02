@@ -3,7 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Register;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ApiSendMailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +22,5 @@ Route::get('/', function () {
 Route::get('register', [Register::class, 'create']);
 Route::post('register', [Register::class, 'store']);
 Route::get('admin', [AdminController::class, 'getAll']);
+
+
